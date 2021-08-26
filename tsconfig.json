@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "alwaysStrict": true,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "useDefineForClassFields": true,
+        "lib": [
+            "dom",
+            "es2016"
+        ],
+        "sourceMap": true,
+        "target": "es5",
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "@@components/*": ["src/common/components/*"],
+            "@@state/*": ["src/common/state/*"],
+            "@@typings/*": ["src/common/types/*"],
+            "@@utils/*": ["src/common/utils/*"]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
